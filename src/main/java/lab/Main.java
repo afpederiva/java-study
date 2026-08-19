@@ -16,16 +16,15 @@ public class Main {
         person2.setAge(62);
         person3.setAge(64);
 
-        System.out.println(person1.getName());
-        System.out.println(person1.getAge());
-        System.out.println(person2.getName());
-        System.out.println(person2.getAge());
-        System.out.println(person3.getName());
-        System.out.println(person3.getAge());
+        person1.setFavoritePerson(person2);
+        person2.setFavoritePerson(person3);
+        person3.setFavoritePerson(person1);
 
-
+        System.out.println();
         person1.introduce();
+        System.out.println();
         person2.introduce();
+        System.out.println();
         person3.introduce();
     }
 

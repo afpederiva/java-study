@@ -4,6 +4,7 @@ public class Person {
 
     private String name;
     private int age;
+    private Person favoritePerson;
 
     public void setName(String name) {
 
@@ -41,5 +42,14 @@ public class Person {
 
     public void introduce() {
         System.out.println("Hi, my name is " + getName() + " and I am " + getAge() + " years old.");
+        System.out.println("My favorite person is " + getFavoritePerson().getName());
+    }
+
+    public void setFavoritePerson(Person favoritePerson) {
+        this.favoritePerson = favoritePerson;
+    }
+
+    public Person getFavoritePerson() {
+        return favoritePerson;
     }
 }
