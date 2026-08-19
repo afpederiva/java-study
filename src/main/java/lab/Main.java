@@ -20,12 +20,24 @@ public class Main {
         person2.setFavoritePerson(person3);
         person3.setFavoritePerson(person1);
 
+        Musician musician1 = new Musician("Guitar");
+
+        musician1.setName("Slash");
+        musician1.setAge(61);
+        musician1.setFavoritePerson(person2);
+
         System.out.println();
         person1.introduce();
+
         System.out.println();
         person2.introduce();
+
         System.out.println();
         person3.introduce();
+
+        System.out.println();
+        musician1.introduce();
+
     }
 
 }
