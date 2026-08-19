@@ -35,4 +35,9 @@ public class Musician extends Person {
         System.out.println("My favorite person is " + getFavoritePerson().getName());
     }
 
+    @Override
+    public String toString() {
+        return getName();
+    }
+
 }

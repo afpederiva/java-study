@@ -2,6 +2,7 @@ package lab;
 
 public class Person {
 
+    private Long id;
     private String name;
     private int age;
     private Person favoritePerson;
@@ -51,5 +52,16 @@ public class Person {
 
     public Person getFavoritePerson() {
         return favoritePerson;
+    }
+
+    private static Long nextId = 1L;
+
+    public Person() {
+        this.id = nextId;
+        nextId++;
+    }
+
+    public Long getId() {
+        return id;
     }
 }
