@@ -38,4 +38,8 @@ public class Person {
     public int getAge() {
         return age;
     }
+
+    public void introduce() {
+        System.out.println("Hi, my name is " + getName() + " and I am " + getAge() + " years old.");
+    }
 }
