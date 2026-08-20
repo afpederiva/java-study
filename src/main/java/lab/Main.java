@@ -30,8 +30,9 @@ public class Main {
         person3.setName("Axl");
         person3.setAge(64);
 
-        // introduce() was added to Person.
-        // Favorite person will be introduced in the next step.
+        // Person now has behavior through introduce().
+        // The method will be demonstrated in the next step,
+        // after favoritePerson is introduced.
 
 
         System.out.println();
@@ -87,5 +88,13 @@ public class Main {
         Band gunsNRoses = new Band("Guns N' Roses", membersGNR);
 
         System.out.println(gunsNRoses.getMembers());
+
+
+        System.out.println();
+        System.out.println("========== ETAPA 6 - UNIT TESTS ==========");
+
+        System.out.println("Unit tests were added with JUnit.");
+
     }
+
 }

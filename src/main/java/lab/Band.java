@@ -30,10 +30,11 @@ public class Band {
         this.members = new ArrayList<>(members);
     }
 
-    public void addMember (Musician musician) {
+    public void addMember(Musician musician) {
         if (members.contains(musician)) {
             throw new IllegalArgumentException("Musician is already a member of this band");
         }
+
         members.add(musician);
     }
 
