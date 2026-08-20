@@ -1,10 +1,16 @@
 package lab;
 
+import jakarta.persistence.*;
+
+@Entity
 public class Person {
 
+    @Id
+    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private int age;
+    @ManyToOne
     private Person favoritePerson;
 
     public void setName(String name) {
@@ -52,13 +58,6 @@ public class Person {
 
     public Person getFavoritePerson() {
         return favoritePerson;
-    }
-
-    private static Long nextId = 1L;
-
-    public Person() {
-        this.id = nextId;
-        nextId++;
     }
 
     public Long getId() {

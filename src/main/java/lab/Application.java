@@ -11,7 +11,9 @@ public class Application {
     }
 
     public Application(GreetingService greetingService) {
+
         System.out.println(greetingService.greet());
+
     }
 
 }

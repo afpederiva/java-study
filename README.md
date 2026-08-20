@@ -2,7 +2,7 @@
 
 A hands-on Java study project focused on learning core Java concepts through small practical experiments.
 
-## 1. Object-Oriented Programming (OOP) ✅
+## 1. Object-Oriented Programming (OOP)
 
 ### Person
 
@@ -55,7 +55,7 @@ Introduced `Band` as an object that manages multiple musicians.
 - Validation of object state
 - Preventing duplicate members when adding them
 
-## 2. Unit Testing ✅
+## 2. Unit Testing
 
 Introduced unit testing with JUnit.
 
@@ -78,3 +78,19 @@ Introduced a basic Spring Boot application.
 - `@Component`
 - Dependency Injection
 - Constructor injection
+
+## 4. JPA and PostgreSQL
+
+Introduced persistence with JPA and PostgreSQL.
+
+- PostgreSQL running with Docker
+- Database inspection with DBeaver
+- `@Entity`
+- `@Id`
+- `@GeneratedValue`
+- `GenerationType.IDENTITY`
+- Entity relationships with `@ManyToOne`
+- Spring Data JPA
+- `JpaRepository`
+- Persisting Java objects into PostgreSQL
+- Mapping Java objects to database tables
