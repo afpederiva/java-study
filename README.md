@@ -66,3 +66,15 @@ Introduced unit testing with JUnit.
 - Testing expected behavior
 - Testing invalid input
 - Running tests through IntelliJ IDEA
+
+## 3. Spring Boot
+
+Introduced a basic Spring Boot application.
+
+- Spring Boot application startup
+- `@SpringBootApplication`
+- `SpringApplication.run()`
+- Spring components
+- `@Component`
+- Dependency Injection
+- Constructor injection
