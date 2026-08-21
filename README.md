@@ -94,3 +94,27 @@ Introduced persistence with JPA and PostgreSQL.
 - `JpaRepository`
 - Persisting Java objects into PostgreSQL
 - Mapping Java objects to database tables
+
+## 5. REST API
+
+Introduced a basic REST API using Spring MVC.
+
+- HTTP request and response basics
+- REST controllers
+- `@RestController`
+- `@RequestMapping`
+- `@GetMapping`
+- `@PostMapping`
+- `@PathVariable`
+- `@RequestBody`
+- `ResponseEntity`
+- HTTP status codes
+- `200 OK`
+- `201 Created`
+- `404 Not Found`
+- JSON request and response
+- DTOs
+- `PersonRequest`
+- Reading persisted data through REST
+- Creating persisted data through REST
+- Testing API endpoints with Postman
